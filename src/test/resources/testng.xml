@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+    <listeners>
+        <listener class-name="com.leumit.listeners.ExtentReportListener" />
+    </listeners>
+    <test name="Extent Report Test">
+        <classes>
+            <class name="com.leumit.tests.Guru99Tests.PositiveFlowsTests.PositiveGuru99BankHomeTest" />
+            <class name="com.leumit.tests.Guru99Tests.NegativeFlowsTests.NegativeGuru99BankHomeTest" />
+            <class name="com.leumit.tests.W3SchoolsTests.PositiveFlowsTests.PositiveW3SchoolsHtmlTablesTest" />
+            <class name="com.leumit.tests.W3SchoolsTests.NegativeFlowsTests.NegativeW3SchoolsHtmlTablesTest" />
+        </classes>
+    </test>
+</suite>
