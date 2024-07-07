@@ -40,18 +40,5 @@ public class AlertUtils {
             }
         }
     }
-//    public static void closeAdAlertIfPresent(WebDriver driver) {
-//        if (isAdAlertPresent(driver)) {
-//            // Perform an action to dismiss the ad alert by clicking on the page
-//            Actions actions = new Actions(driver);
-//            actions.click().perform();
-//            // Wait for the body element to have no attribute - aria-hidden
-//            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-//            wait.until((WebDriver d)  -> {
-//                WebElement bodyElement = d.findElement(By.tagName("body"));
-//                return bodyElement.getAttribute("aria-hidden") == null;
-//            });
-//        }
-//    }
 
 }
